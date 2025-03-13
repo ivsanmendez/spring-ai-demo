@@ -1,0 +1,6 @@
+# ASDF file used to configure different tools versions
+direnv 2.35.0
+teller 1.5.6
+python 3.11.5
+java 17.0.2-open
+gradle 7.6.4
