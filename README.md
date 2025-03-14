@@ -1,8 +1,8 @@
-# MacOS Setup
+# MacOS - Linux Setup
 1. [Install brew](https://brew.sh/)
 2. [Install asdf](https://asdf-vm.com/)
 3. Run ``` asdf install```
-   1. if needed install asdf plugins
+   1. If needed install asdf plugins
 4. Run ``` direnv allow```
 
 # Tech Stack

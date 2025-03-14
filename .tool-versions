@@ -2,5 +2,6 @@
 direnv 2.35.0
 teller 1.5.6
 python 3.11.5
-java 17.0.2-open
+java openjdk-17.0.2
 gradle 7.6.4
+teller 2.0.6
