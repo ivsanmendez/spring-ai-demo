@@ -26,7 +26,7 @@ providers:
     env_sync:
       path: ./{{stage}}
     env:
-      TEST_ENVIRONMENT_VARIABLE:
+      APP_TEST_INITIAL_CONFIGURATION:
         path: ./{{stage}}
       DEEPSEEK_API_KEY:
         path: ./{{stage}}

@@ -29,7 +29,7 @@ ext {
 
 dependencyManagement {
 	imports {
-		mavenBom 'org.springframework.ai:spring-ai-bom:1.0.0-SNAPSHOT'
+		mavenBom "org.springframework.ai:spring-ai-bom:${springAiVersion}"
 	}
 }
 
@@ -40,12 +40,6 @@ dependencies {
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-}
-
-dependencyManagement {
-	imports {
-		mavenBom "org.springframework.ai:spring-ai-bom:${springAiVersion}"
-	}
 }
 
 tasks.named('test') {
